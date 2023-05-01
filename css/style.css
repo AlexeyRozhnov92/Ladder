@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+  body {
+    background: #bfff00;
+    color: black;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background: #00ffee;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background: #ff00dd;
+  }
+}
+/*
+@media (max-width: $mobile-width-only) {
+  body {
+    background: #0713ff;
+    color:aliceblue
+  }
+}
+
+@media (max-width: $desktop-width) {
+  body {
+    background: #70ff02;
+    color: rgb(255, 0, 0);
+  }
+*/
+/*@import "./blocks/viewport.scss"
+*/
+
+/*# sourceMappingURL=style.css.map */

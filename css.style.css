@@ -1,0 +1,19 @@
+body {
+  background: #0713ff;
+  color: aliceblue;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #70ff02;
+    color: brown;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background: #ff00b3;
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=css.style.css.map */

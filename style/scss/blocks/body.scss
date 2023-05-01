@@ -1,0 +1,47 @@
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+
+
+
+@media (max-width:$mobile-width-only) {
+body {
+  background: #bfff00;
+  color: black;
+}
+}
+
+@media (min-width: $tablet-width) and (max-width:$desktop-width) {
+ body {
+  background: #00ffee;
+ }
+}
+
+
+@media (min-width:$desktop-width) {
+  body {
+    background: #ff00dd;
+  }
+}
+
+
+
+
+
+
+
+/*
+@media (max-width: $mobile-width-only) {
+  body {
+    background: #0713ff;
+    color:aliceblue
+  }
+}
+
+@media (max-width: $desktop-width) {
+  body {
+    background: #70ff02;
+    color: rgb(255, 0, 0);
+  }
+*/
