@@ -1,0 +1,44 @@
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+@media (max-width:$mobile-width-only) {
+    .header {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $tablet-width) and (max-width:$desktop-width) {
+    .header {
+        margin: 0 auto;
+    }
+    
+}
+
+@media (min-width:$desktop-width) {
+    .header {
+        position: relative;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202020;
+    text-decoration: none;
+}
+
+.navigation__link {
+    width: 700px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202020;
+    text-decoration: none;
+}
