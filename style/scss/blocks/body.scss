@@ -2,25 +2,45 @@ $tablet-width: 768px;
 $desktop-width: 1200px;
 $mobile-width-only: 767px;
 
-
-
-
 @media (max-width:$mobile-width-only) {
-body {
-  background: #bfff00;
-  color: black;
+.body {
+  position: relative;
 }
 }
 
 @media (min-width: $tablet-width) and (max-width:$desktop-width) {
- body {
-  background: #00ffee;
+.body {
+  position: relative;
  }
 }
 
 
 @media (min-width:$desktop-width) {
-  body {
-    background: #ff00dd;
+.body {
+    position: relative;
   }
 }
+
+@media (max-width:$mobile-width-only) {
+  .header-gradient {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 890px;
+    background: linear-gradient(to left, #f4f4f4 76%, #F9BB88 24%);
+    z-index: -1;
+  }
+  }
+
+  @media (min-width:$desktop-width) {
+.header-gradient {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 850px;
+  background: linear-gradient(to left, #f4f4f4 62%, #F9BB88 38%);
+  z-index: -1;
+}
+}
+
+
