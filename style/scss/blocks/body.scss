@@ -33,14 +33,15 @@ $mobile-width-only: 767px;
   }
 
   @media (min-width:$desktop-width) {
-.header-gradient {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 850px;
-  background: linear-gradient(to left, #f4f4f4 62%, #F9BB88 38%);
-  z-index: -1;
-}
+    .header-gradient {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 850px;
+        background: linear-gradient(to left, #f4f4f4 62%, #F9BB88 38%);
+        z-index: -1;
+    }
 }
 
 
