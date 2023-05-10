@@ -175,7 +175,7 @@
     height: 30px;
     background: transparent;
   }
-  .wrapper::before {
+  .span-1 {
     content: "";
     position: absolute;
     width: 100%;
@@ -184,7 +184,7 @@
     background: #27242B;
     top: 6px;
   }
-  .wrapper::after {
+  .span-3 {
     content: "";
     position: absolute;
     width: 100%;
@@ -193,7 +193,7 @@
     background: #27242B;
     bottom: 5px;
   }
-  .wrapper span {
+  .span-2 {
     content: "";
     position: absolute;
     width: 100%;
@@ -202,18 +202,18 @@
     background: #27242B;
     bottom: 13px;
   }
-  .wrapper span:active {
+  .active .span-2 {
     display: none;
   }
-  .wrapper::before:active {
+  .active .span-1 {
     transform: rotate(45deg);
     top: 13px;
   }
-  .wrapper::after:active {
+  .active .span-3 {
     transform: rotate(-45deg);
     top: 13px;
   }
-  .logo__item:active {
+  .active .logo__item {
     position: absolute;
     padding: 0;
     margin: 0;
