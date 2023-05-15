@@ -9,8 +9,10 @@ window.addEventListener('scroll', function() {
 });
 
 const button = document.querySelector('.wrapper');
-const menu = document.querySelector('.wrapper');
-menu.addEventListener('click', function() {
-  button.classList.toggle('active');
-});
+const menu = document.querySelector('.span');
+button.addEventListener('click', function() {
+  this.classList.toggle('active');
+  document.querySelector('.navigation').classList.toggle('open');
+})
+;
 

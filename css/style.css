@@ -71,6 +71,17 @@
     background-image: url(../img/LOGO-mini.svg);
     background-repeat: no-repeat;
   }
+  .navigation {
+    transform: scale(0);
+  }
+  .navigation .open {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #202020;
+    width: 200px;
+    height: 200px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .header {
@@ -85,7 +96,7 @@
 @media (min-width: 1200px) {
   .header {
     position: fixed;
-    z-index: 50;
+    z-index: 20;
     top: 0px;
     width: 100%;
     height: 95px;
@@ -100,6 +111,26 @@
     background-image: url(../img/LOGO.svg);
     background-repeat: no-repeat;
   }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202020;
+    text-decoration: none;
+  }
+  .navigation__link {
+    width: 700px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202020;
+    text-decoration: none;
+  }
 }
 .scrolled {
   background-color: rgb(170, 158, 158);
@@ -112,28 +143,6 @@
   display: flex;
   justify-content: space-between;
   background: transparent;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 700px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #202020;
-  text-decoration: none;
-}
-
-.navigation__link {
-  width: 700px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #202020;
-  text-decoration: none;
 }
 
 .logo {
@@ -174,6 +183,7 @@
     width: 30px;
     height: 30px;
     background: transparent;
+    z-index: 50;
   }
   .span-1 {
     content: "";
@@ -183,6 +193,7 @@
     border-radius: 2px;
     background: #27242B;
     top: 6px;
+    transition: 0.8s;
   }
   .span-3 {
     content: "";
@@ -192,6 +203,7 @@
     border-radius: 2px;
     background: #27242B;
     bottom: 5px;
+    transition: 0.8s;
   }
   .span-2 {
     content: "";
@@ -201,25 +213,28 @@
     border-radius: 2px;
     background: #27242B;
     bottom: 13px;
+    transition: 0.8s;
   }
-  .active .span-2 {
-    display: none;
+  .wrapper.active .span-2 {
+    transform: scale(0);
   }
-  .active .span-1 {
+  .wrapper.active .span-1 {
     transform: rotate(45deg);
     top: 13px;
+    transition: 0.8s;
   }
-  .active .span-3 {
+  .wrapper.active .span-3 {
     transform: rotate(-45deg);
     top: 13px;
+    transition: 0.8s;
   }
-  .active .logo__item {
+  .wrapper.active .logo__item {
     position: absolute;
     padding: 0;
     margin: 0;
     width: 100px;
     height: 60px;
-    left: 120px;
+    left: 121px;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
