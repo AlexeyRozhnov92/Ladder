@@ -28,9 +28,10 @@ $mobile-width-only: 767px;
 
     .navigation .open {
         content: "";
+        transform: scale(1);
         display: block;
         position: absolute;
-        background: #202020;
+        background: #a72323;
         width: 200px;
         height: 200px;
     }

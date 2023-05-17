@@ -16,3 +16,10 @@ button.addEventListener('click', function() {
 })
 ;
 
+/*
+const burger = document.querySelector('.navigation');
+const nav = document.querySelector('.navigation');
+burger.addEventListener('click', function() {
+  this.classList.toggle('open');
+})
+;*/

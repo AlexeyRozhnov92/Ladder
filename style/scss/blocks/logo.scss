@@ -36,8 +36,10 @@ $mobile-width-only: 767px;
 
     .wrapper {
         content: "";
-        position: relative;
+        position: fixed;
         display: block;
+        top: 0px;
+        left: 10px;
         width: 30px;
         height: 30px;
         background: transparent;
