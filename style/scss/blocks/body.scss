@@ -5,6 +5,7 @@ $mobile-width-only: 767px;
 @media (max-width:$mobile-width-only) {
 .body {
   position: relative;
+  margin: 0px;
 }
 }
 
