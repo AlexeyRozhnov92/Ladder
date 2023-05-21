@@ -1,2 +1,21 @@
-.first-content {
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+@media (max-width:$mobile-width-only) {
+    .first-content {
+        margin: 0
+    }
+}
+
+@media (min-width: $tablet-width) and (max-width:$desktop-width) {
+    .first-content {
+        margin: 0
+    }
+}
+
+@media (min-width:$desktop-width) {
+    .first-content {
+        margin-top: 150px;
+    }
 }

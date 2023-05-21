@@ -77,7 +77,13 @@ $mobile-width-only: 767px;
         text-align: center;
         color: #F4F4F4;
     }
+
+    .phone__button:hover {
+        background: #202020;
+        border-radius: 2px;
+    }
 }
+
 
 
 
@@ -104,6 +110,7 @@ $mobile-width-only: 767px;
     }
     
     .navigation {
+        position: relative;
         display: flex;
         justify-content: space-between;
         width: 700px;
@@ -115,14 +122,64 @@ $mobile-width-only: 767px;
         text-decoration: none;
     }
     
+    
+    .navigation__menu {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        height: 60px;
+        top: 0px;
+        left: 600px;
+    }
+
     .navigation__link {
-        width: 700px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         color: #202020;
         text-decoration: none;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .phone__number {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #202020;
+    }
+
+    .phone__button {
+        margin-top: 10px;
+        width: 160px;
+        height: 40px;
+        border: none;
+        background: #FF9646;
+        border-radius: 2px;
+    }
+
+    .phone__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #F4F4F4;
+    }
+
+    .phone__button:hover {
+        background: #202020;
+        border-radius: 2px;
     }
     
 }
