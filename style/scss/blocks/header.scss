@@ -31,7 +31,7 @@ $mobile-width-only: 767px;
     .navigation__menu {
         display: flex;
         flex-direction: column;
-        margin: 10px 0px 0px 10px;
+        margin: 30px 0px 0px 10px;
     }
 
     .navigation__link {
@@ -131,8 +131,8 @@ $mobile-width-only: 767px;
         justify-content: space-between;
         width: 500px;
         height: 60px;
-        top: 0px;
-        left: 600px;
+        left: 650px;
+        top: -30px;
     }
 
     .navigation__link {
@@ -142,22 +142,27 @@ $mobile-width-only: 767px;
         font-size: 14px;
         color: #202020;
         text-decoration: none;
+        padding: 10px;
     }
 
     .phone {
+        position: absolute;
         display: flex;
         flex-direction: column;
-        margin: 10px 0px 0px 10px;
+        left: 1200px;
+        top: -50px;
+        width: 300px;
     }
 
     .phone__number {
         font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 18px;
         line-height: 120%;
         text-transform: uppercase;
         color: #202020;
+        padding: 5px;
     }
 
     .phone__button {

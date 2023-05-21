@@ -4,7 +4,13 @@ $mobile-width-only: 767px;
 
 @media (max-width:$mobile-width-only) {
     .first-content {
-        margin: 0
+        margin-top: 50px;
+    }
+
+    .first__img {
+        width: 100%;
+        height: 260px;
+        z-index: 2;
     }
 }
 
@@ -17,5 +23,10 @@ $mobile-width-only: 767px;
 @media (min-width:$desktop-width) {
     .first-content {
         margin-top: 150px;
+    }
+
+    .first__img {
+        width: 880px;
+        height: 660px;
     }
 }
