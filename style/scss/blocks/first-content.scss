@@ -44,7 +44,7 @@ $mobile-width-only: 767px;
 
     .line {
         position: absolute;
-        width: 318px;
+        width: 250px;
         height: 3px;
         left: -25px;
         top: 210px;
@@ -63,6 +63,7 @@ $mobile-width-only: 767px;
         position: absolute;
         width: 209px;
         height: 50px;
+        top: 310px;
         background: #FF9646;
         border-radius: 2px;
         border: none;
@@ -84,28 +85,35 @@ $mobile-width-only: 767px;
     
     .price__block {
         position: relative;
+        display: block;
+        margin: 0 auto;
         width: 90%;
-        top: 400px;
-        left: 20px;
+        top: 420px;
         height: 200px;
         background: #202020;
 
     }
 
     .price__text {
+        position: absolute;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 140%;
         color: #F4F4F4;
+        width: 280px;
+        height: 50px;
+        left: 50px;
+        top: 20px;
     }
 
     .price__link {
         position: absolute;
         width: 191px;
         height: 50px;
-        left: 0px;
+        left: 50px;
+        top: 110px;
         background: #F4F4F4;
         border-radius: 2px;
         border: none;
@@ -148,7 +156,7 @@ $mobile-width-only: 767px;
     .first__block {
         position: absolute;
         left: 1000px;
-        top: 10px;
+        top: 100px;
     }
 
     .first__term {
@@ -170,14 +178,16 @@ $mobile-width-only: 767px;
         line-height: 120%;
         letter-spacing: 0.02em;   
         color: #202020;
+        width: 340px;
+        height: 162px;
     }
 
     .line {
         position: absolute;
         width: 517px;
         height: 3px;
-        left: 908px;
-        top: 424px;
+        right: 100px;
+        top: 260px;
         background: #F9BB88;
     }
 
@@ -188,6 +198,9 @@ $mobile-width-only: 767px;
         font-size: 14px;
         line-height: 160%;
         color: #202020;
+        margin-top: 80px;
+        width: 315px;
+        height: 66px;
     }
 
     .first__consultation {

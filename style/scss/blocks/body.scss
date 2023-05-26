@@ -6,7 +6,8 @@ $mobile-width-only: 767px;
 .body {
   position: relative;
   margin: 0px;
-min-width: 300px;}
+  width: 100%;
+}
 }
 
 @media (min-width: $tablet-width) and (max-width:$desktop-width) {
@@ -40,6 +41,7 @@ min-width: 300px;}
     .header-gradient {
         display: block;
         position: absolute;
+        margin: 0 auto;
         top: -250px;
         width: 100%;
         height: 1100px;
