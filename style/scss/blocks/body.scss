@@ -6,12 +6,13 @@ $mobile-width-only: 767px;
 .body {
   position: relative;
   margin: 0px;
-}
+min-width: 300px;}
 }
 
 @media (min-width: $tablet-width) and (max-width:$desktop-width) {
 .body {
   position: relative;
+  width: 100%;
  }
 }
 
@@ -19,6 +20,7 @@ $mobile-width-only: 767px;
 @media (min-width:$desktop-width) {
 .body {
     position: relative;
+    width: 100%;
   }
 }
 

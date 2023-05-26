@@ -4,12 +4,13 @@ $mobile-width-only: 767px;
 
 @media (max-width:$mobile-width-only) {
     .advantages {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 } 
 
 @media (min-width:$desktop-width) {
     .advantages {
         margin-top: 300px;
+
     }
 }

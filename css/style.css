@@ -3,16 +3,19 @@
   .body {
     position: relative;
     margin: 0px;
+    min-width: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .body {
     position: relative;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .body {
     position: relative;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -363,6 +366,7 @@
   }
   .first__block {
     position: absolute;
+    bottom: -100px;
     left: 110px;
   }
   .first__term {
@@ -419,6 +423,44 @@
     line-height: 140%;
     text-align: center;
     color: #F4F4F4;
+  }
+  .price__block {
+    position: relative;
+    width: 90%;
+    top: 400px;
+    left: 20px;
+    height: 200px;
+    background: #202020;
+  }
+  .price__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #F4F4F4;
+  }
+  .price__link {
+    position: absolute;
+    width: 191px;
+    height: 50px;
+    left: 0px;
+    background: #F4F4F4;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+  }
+  .price__link:hover {
+    background: #FF9646;
+  }
+  .link__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #202020;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -537,7 +579,7 @@
 }
 @media (max-width: 767px) {
   .advantages {
-    margin-top: 300px;
+    margin-top: 500px;
   }
 }
 @media (min-width: 1200px) {
