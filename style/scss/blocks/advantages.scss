@@ -27,6 +27,9 @@ $mobile-width-only: 767px;
         font-size: 18px;
         line-height: 140%;
         color: #202020;
+        width: 210px;
+        height: 50px;
+        margin: 40px 25px 0px 110px ;
     }
 
     .advantages__text {
@@ -36,8 +39,10 @@ $mobile-width-only: 767px;
         font-size: 14px;
         line-height: 170%;
         color: #202020;
+        width: 220px;
+        height: 96px;
+        margin-left: 110px;
     }
-
     
     .advantages__worker {
         position: absolute;
@@ -45,7 +50,10 @@ $mobile-width-only: 767px;
         background-image: url(../img/worker.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__money {
@@ -54,7 +62,10 @@ $mobile-width-only: 767px;
         background-image: url(../img/money.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__lader {
@@ -63,7 +74,10 @@ $mobile-width-only: 767px;
         background-image: url(../img/lader.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__cube {
@@ -84,6 +98,15 @@ $mobile-width-only: 767px;
         left: 170px;
         top: 205px;
         z-index: -5;
+    }
+
+    .advantages__line {
+        position: absolute;
+        width: 21px;
+        height: 80px;
+        left: 18px;
+        top: 38px;
+        background: #f9bb88;
     }
 } 
 
@@ -111,6 +134,9 @@ $mobile-width-only: 767px;
         font-size: 18px;
         line-height: 140%;
         color: #202020;
+        width: 210px;
+        height: 50px;
+        margin: 40px 25px 0px 110px ;
     }
 
     .advantages__text {
@@ -120,15 +146,22 @@ $mobile-width-only: 767px;
         font-size: 14px;
         line-height: 170%;
         color: #202020;
+        width: 220px;
+        height: 96px;
+        margin-left: 110px;
     }
 
+    
     .advantages__worker {
         position: absolute;
         display: block;
         background-image: url(../img/worker.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__money {
@@ -137,7 +170,10 @@ $mobile-width-only: 767px;
         background-image: url(../img/money.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__lader {
@@ -146,7 +182,10 @@ $mobile-width-only: 767px;
         background-image: url(../img/lader.svg);
         width: 60px;
         height: 60px;
+        left: 30px;
+        top: 50px;
         background-repeat: no-repeat;
+        z-index: 2;
     }
 
     .advantages__cube {
@@ -165,5 +204,14 @@ $mobile-width-only: 767px;
         background-image: url(../img/cubes-orange-mini.svg);
         left: 440px;
         bottom: 200px;
+    }
+    
+    .advantages__line {
+        position: absolute;
+        width: 21px;
+        height: 80px;
+        left: 18px;
+        top: 38px;
+        background: #f9bb88;
     }
 }
