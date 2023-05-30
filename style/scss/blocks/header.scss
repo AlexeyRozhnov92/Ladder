@@ -145,6 +145,12 @@ $mobile-width-only: 767px;
         padding: 10px;
     }
 
+    .navigation__link:hover {
+        text-decoration: underline;
+        color: #FF9646;
+        transition: 0.8s;
+    }
+
     .phone {
         position: absolute;
         display: flex;
