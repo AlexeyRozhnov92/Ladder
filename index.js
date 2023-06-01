@@ -15,3 +15,12 @@ button.addEventListener('click', function() {
   document.querySelector('.navigation').classList.toggle('open');
 })
 ;
+
+let position = 0;
+const slideToShow =3;
+const slideToScroll =1;
+const container = document.querySelector ('.slider-container');
+const track =  document.querySelector ('.slider-track');
+const item =  document.querySelector ('.ladders__block');
+const btnNext =  document.querySelector ('.next');
+const btnPrev =  document.querySelector ('.prew');
