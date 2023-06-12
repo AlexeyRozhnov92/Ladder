@@ -5,7 +5,7 @@ $mobile-width-only: 767px;
 @media (max-width:$mobile-width-only) {
 
     .slider-container {
-        overflow: hidden;
+        display: flex;
     }
 
     .slider-track {
@@ -16,6 +16,7 @@ $mobile-width-only: 767px;
     .types {
         position: relative;
         width: 390px;
+        overflow: hidden;
     }
 
     .types__ladders {
@@ -167,7 +168,7 @@ $mobile-width-only: 767px;
 @media (min-width:$desktop-width) {
 
     .slider-container {
-        overflow: hidden;
+        display: flex;
     }
 
     .slider-track {
@@ -180,8 +181,9 @@ $mobile-width-only: 767px;
         width: 100%;
         display: flex;
         flex-direction: row;
-        width: 1280px;
+        width: 1300px;
         margin: 80px 0px 0px 80px;
+        overflow: hidden;
     }
 
     .types__ladders {
@@ -211,11 +213,21 @@ $mobile-width-only: 767px;
         top: 15px;
     }
 
-    .prew {        
+   /* .prev {
+        width: 15px;
+        height: 15px;
+    }
+
+    .next {
+        width: 15px;
+        height: 15px;
+    }*/
+
+    .prev {        
         position: absolute;
         width: 15px;
         height: 15px;
-        top: 0px;
+        top: 5px;
         right: 380px;
         border-top: 2px solid #F98C37;
         border-right: 2px solid #F98C37;
@@ -228,7 +240,7 @@ $mobile-width-only: 767px;
 
     .button__line {
         position: absolute;
-        top: 6px;
+        top: 9px;
         right: 356px;
         width: 34px;
         height: 2px;
@@ -238,7 +250,7 @@ $mobile-width-only: 767px;
 
     .next {
         position: absolute;
-        top: 0px;
+        top: 5px;
         right: 351px;
         width: 15px;
         height: 15px;

@@ -13,14 +13,21 @@ const menu = document.querySelector('.span');
 button.addEventListener('click', function() {
   this.classList.toggle('active');
   document.querySelector('.navigation').classList.toggle('open');
-})
-;
+});
 
-let position = 0;
-const slideToShow =3;
-const slideToScroll =1;
-const container = document.querySelector ('.slider-container');
-const track =  document.querySelector ('.slider-track');
-const item =  document.querySelector ('.ladders__block');
-const btnNext =  document.querySelector ('.next');
-const btnPrev =  document.querySelector ('.prew');
+$(document).ready(function() {
+  let position = 0;
+  const slidesToShow = 2;
+  const slidesToScroll = 2;
+  const carousel = $ ('.carousel');
+  const track = $ ('.slider-track');
+  const block = $ ('.ladders__block');
+  const btnPrev = $ ('.prev');
+  const btnNext = $ ('.next');
+  const itemWidth = carousel.width() / slidesToShow;
+  block.each(function (index, block) {
+    $(block).css({
+      minWidth: itemWidth,
+    });
+  })
+});
