@@ -171,6 +171,10 @@ $mobile-width-only: 767px;
         padding: 5px;
     }
 
+    .phone__number:hover {
+        color: #FF9646;
+    }
+
     .phone__button {
         margin-top: 10px;
         width: 160px;

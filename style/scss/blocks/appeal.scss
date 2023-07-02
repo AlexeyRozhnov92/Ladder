@@ -1,0 +1,214 @@
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+@media (max-width:$mobile-width-only) {
+    .appeal {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .appeal__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appeal__title{
+        position: absolute;
+        left: 40px;
+        width: 280px;
+        height: 70px;
+        color: #202020;
+        font-size: 29px;
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .appeal__idea{
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        color: #202020;
+        width: 300px;
+        font-size: 23px;
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: 160%;
+    }
+
+    .appeal__text {
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        color: #202020;
+        width: 380px;
+        height: 250px;
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    
+}
+
+@media (min-width:$desktop-width) {
+    .appeal {
+        position: relative;
+        height: 720px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .appeal__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appeal__title {
+        position: absolute;
+        width: 350px;
+        height: 85px;
+        top: 80px;
+        left: 130px;
+        color: #202020;
+        font-size: 36px;
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .appeal__decoration {
+        position: absolute;
+        width: 120px;
+        height: 18px;
+        background: #F9BB88;
+        top: 70px;
+        left: -40px;
+        z-index: -2;
+    }
+
+    .appeal__idea {
+        position: absolute;
+        width: 300px;
+        height: 85px;
+        left: 130px;
+        top: 230px;
+        color: #202020;
+        font-size: 23px;
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: 160%;
+    }
+
+    .appeal__text {
+        position: absolute;
+        width: 386px;
+        height: 296px;
+        top: 380px;
+        left: 130px;
+        color: #202020;
+        font-size: 14px;
+        font-family: Montserrat;
+        line-height: 160%;
+    }
+
+    .specialization {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialization__title {
+        position: absolute;
+        top: 230px;
+        left: 700px;
+        width: 200px;
+        color: #202020;
+        font-size: 23px;
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: 160%;
+    }
+
+    .specialization__block {
+        position: absolute;
+        left: 700px;
+        top: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialization__list {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 20px;
+    }
+
+    .specialization__text {
+        display: flex;
+        flex-direction: row;
+        color: #202020;
+        font-size: 18px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+    }
+
+    .img__design {
+        position: absolute;
+        display: block;
+        right: 200px;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/Design.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    .img__manufacturing {
+        position: absolute;
+        display: block;
+        right: 200px;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/Manufacturing.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    .img__installation {
+        position: absolute;
+        display: block;
+        right: 200px;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/Installation.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    .orange {
+        position: absolute;
+        right: 245px;
+        top: -8px;
+        width: 21px;
+        height: 80px;
+        z-index: -2;
+        background: #F9BB88;
+    }
+
+    .appeal__img {
+        position: absolute;
+        right: 40px; 
+        bottom: 60px;
+        width: 420px;
+        height: 420px;
+    }
+}
