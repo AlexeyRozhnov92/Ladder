@@ -1319,8 +1319,7 @@
     flex-direction: column;
   }
   .appeal__title {
-    position: absolute;
-    left: 40px;
+    margin: 80px 0px 0px 20px;
     width: 280px;
     height: 70px;
     color: #202020;
@@ -1330,9 +1329,7 @@
     line-height: 120%;
   }
   .appeal__idea {
-    position: absolute;
-    top: 80px;
-    left: 40px;
+    margin: 40px 0px 0px 20px;
     color: #202020;
     width: 300px;
     font-size: 23px;
@@ -1341,17 +1338,93 @@
     line-height: 160%;
   }
   .appeal__text {
-    position: absolute;
-    left: 20px;
-    top: 300px;
+    margin: 20px 20px 0px 20px;
     color: #202020;
-    width: 380px;
-    height: 250px;
+    width: 360px;
     font-size: 12px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+  }
+  .specialization {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 20px;
+  }
+  .specialization__title {
+    width: 200px;
+    color: #202020;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .specialization__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .specialization__list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  .specialization__text {
+    display: flex;
+    flex-direction: row;
+    color: #202020;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding: 20px 0px 20px 40px;
+  }
+  .img__design {
+    position: absolute;
+    display: block;
+    left: -35px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Design.svg);
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  .img__manufacturing {
+    position: absolute;
+    display: block;
+    left: -35px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Manufacturing.svg);
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  .img__installation {
+    position: absolute;
+    display: block;
+    left: -35px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Installation.svg);
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  .orange {
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    width: 21px;
+    height: 80px;
+    z-index: -2;
+    background: #F9BB88;
+  }
+  .appeal__img {
+    margin: 20px;
   }
 }
 @media (min-width: 1200px) {
