@@ -13,7 +13,16 @@ $mobile-width-only: 767px;
         flex-direction: column;
     }
 
-    .appeal__title{
+    .appeal__cube {
+        position: absolute;
+        background-image: url(../img/cubes-orange-mini.svg);
+        width: 96px;
+        height: 96px;
+        right: 20px;
+        top: -30px;
+    }
+
+    .appeal__title{position: relative;
         margin: 80px 0px 0px 20px;
         width: 280px;
         height: 70px;
@@ -23,6 +32,18 @@ $mobile-width-only: 767px;
         font-weight: 700;
         line-height: 120%;
     }
+
+    .appeal__decoration {
+        position: absolute;
+        display: block;
+        top: 55px;
+        left: -20px;
+        width: 100px;
+        height: 14px;
+        background: #F9BB88;
+        z-index: -2;
+    }
+
 
     .appeal__idea{
         margin: 40px 0px 0px 20px;
@@ -148,6 +169,15 @@ $mobile-width-only: 767px;
     .appeal__block {
         display: flex;
         flex-direction: column;
+    }
+
+    .appeal__cube {
+        position: absolute;
+        background-image: url(../img/cubes-orange-mini.svg);
+        width: 96px;
+        height: 96px;
+        right: 20px;
+        top: 40px;
     }
 
     .appeal__title {
