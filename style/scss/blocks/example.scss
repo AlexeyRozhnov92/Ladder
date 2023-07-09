@@ -1,0 +1,20 @@
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+
+@media (max-width:$mobile-width-only) {
+    .example {
+        max-width: 767px;
+        margin: 0 auto;
+        background: linear-gradient(to right, #f4f4f4 76%, #F9BB88 24%);
+    }
+} 
+
+@media (min-width:$desktop-width) {
+    .example{
+        width: 100%;
+        margin: 0 auto;
+        background: linear-gradient(to left, #f4f4f4 62%, #F9BB88 38%);
+    }
+    
+}

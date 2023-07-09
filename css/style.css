@@ -1597,5 +1597,19 @@
     height: 420px;
   }
 }
+@media (max-width: 767px) {
+  .example {
+    max-width: 767px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #f4f4f4 76%, #F9BB88 24%);
+  }
+}
+@media (min-width: 1200px) {
+  .example {
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to left, #f4f4f4 62%, #F9BB88 38%);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
